@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-catcher",
     "pluralName": "news-catchers",
-    "displayName": "News Catcher"
+    "displayName": "News Catcher",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,6 +45,9 @@
       "type": "string"
     },
     "topic": {
+      "type": "string"
+    },
+    "image_url": {
       "type": "string"
     }
   }

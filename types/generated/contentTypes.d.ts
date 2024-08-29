@@ -368,6 +368,7 @@ export interface ApiNewsCatcherNewsCatcher extends Schema.CollectionType {
     singularName: 'news-catcher';
     pluralName: 'news-catchers';
     displayName: 'News Catcher';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -384,6 +385,7 @@ export interface ApiNewsCatcherNewsCatcher extends Schema.CollectionType {
     summary: Attribute.Text;
     title: Attribute.String;
     topic: Attribute.String;
+    image_url: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
