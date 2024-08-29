@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_catchers",
+  "info": {
+    "singularName": "news-catcher",
+    "pluralName": "news-catchers",
+    "displayName": "News Catcher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clean_url": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "default": "NA"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    },
+    "link": {
+      "type": "string"
+    },
+    "published_date": {
+      "type": "datetime"
+    },
+    "rank": {
+      "type": "biginteger"
+    },
+    "rights": {
+      "type": "text"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    }
+  }
+}
