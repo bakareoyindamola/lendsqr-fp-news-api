@@ -114,5 +114,5 @@ build
 .strapi-updater.json
 .strapi-cloud.json
 
-./scripts
-./scripts/*
+scripts
+scripts/*
